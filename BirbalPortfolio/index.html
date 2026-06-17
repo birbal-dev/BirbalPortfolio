@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birbal Kumawat | Premium Frontend Developer Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Birbal Kumawat, a passionate Frontend Developer with 2 years of experience crafting premium, responsive, and high-performance user interfaces using HTML, CSS, Bootstrap, and JavaScript.">
+    <meta name="keywords"
+        content="Birbal Kumawat, Frontend Developer, Portfolio, Bootstrap, UI Development, Responsive Design">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- Preconnect for faster CDN loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- Google Fonts — Josefin Sans -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5.3 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- FontAwesome 6 CDN (Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom External CSS -->
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="100">
+
+    <!-- Ambient Glowing Background Orbs -->
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+
+    <!-- ==========================================
+       HEADER & NAVIGATION
+       ========================================== -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-nav" id="mainNavbar">
+            <div class="container">
+                <a class="navbar-brand text-gradient" href="#home" id="brandLogo">
+                    BIRBAL<span style="color: var(--accent-purple);">.</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                            <a class="btn-premium btn-sm" href="#contact">Let's Talk</a>
+                        </li>
+                        <li class="nav-item ms-lg-2 mt-3 mt-lg-0">
+                            <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Day/Night Mode"
+                                title="Toggle Day/Night Mode">
+                                <span class="toggle-icon" id="themeToggleIcon">🌙</span>
+                                <span class="toggle-label" id="themeToggleLabel">Night</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-7 order-2 order-lg-1 text-center text-lg-start">
+                    <span class="badge rounded-pill bg-dark border border-secondary px-3 py-2 mb-3 text-gradient">
+                        <i class="fa-solid fa-sparkles me-2"></i>Also Available for Freelance Projects
+                    </span>
+                    <h1 class="display-3 fw-bold mb-3">
+                        Hi, I'm <span class="text-gradient">Birbal Kumawat</span>
+                    </h1>
+                    <h2 class="h3 fw-semibold mb-4 text-white">
+                        A Creative <span class="txt-type text-gradient-purple" data-wait="1500"
+                            data-words='["Frontend Developer", "UI Developer", "Responsive Web Specialist", "Figma to HTML Specialist"]'></span>
+                    </h2>
+                    <p class="lead text-muted mb-5 max-width-lg-90">
+                        I craft immersive, visually stunning digital interfaces that combine clean aesthetic codes with
+                        robust, user-centric functionality. With 2+ years of professional experience as a Frontend
+                        Developer, I specialize in building responsive, modern, and high-performance web applications.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3">
+                        <a href="#portfolio" class="btn-premium">Explore My Work</a>
+                        <a href="#contact" class="btn-outline-premium">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-1 order-lg-2">
+                    <div class="hero-avatar-wrapper">
+                        <div class="hero-avatar-glow"></div>
+                        <img src="assets/images/avatar.png" alt="Birbal Kumawat Profile Avatar" class="hero-avatar">
+                        <div class="hero-experience-badge">
+                            <div class="hero-badge-title">Experience</div>
+                            <div class="hero-badge-val text-gradient">2+ Years</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       ABOUT SECTION
+       ========================================== -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="row align-items-center gy-5 mt-3">
+                <div class="col-lg-6">
+                    <h3 class="h2 mb-4 text-gradient">Bridging UI Design and Modern Code</h3>
+                    <p class="text-muted mb-4 fs-5">
+                        I'm a passionate Frontend Developer with 2 years of experience in building responsive,
+                        user-friendly, and high-performance web applications using HTML5, CSS3, and Bootstrap. I
+                        specialize in converting design wireframes and Figma prototypes into clean, pixel-perfect, and
+                        production-ready code.
+                    </p>
+                    <p class="text-muted mb-5">
+                        My workflow is centered around clean semantic code, responsive layout logic, and optimized
+                        performance. I am also actively expanding my skill set in React.js to build modern
+                        component-driven apps, along with basic theme customization and site management in WordPress.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#contact" class="btn-premium">Hire Me Now</a>
+                        <a href="assets/images/Birbal-Resume.pdf" download="Birbal-Resume.pdf"
+                            class="btn-outline-premium"><i class="fa-solid fa-download me-2"></i>Download CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <div class="col-sm-6">
+                            <div class="glass-card stat-box">
+                                <div class="stat-number text-gradient">2+</div>
+                                <div class="stat-label">Years of Experience</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="glass-card stat-box">
+                                <div class="stat-number text-gradient-purple">60+</div>
+                                <div class="stat-label">Completed Projects</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="glass-card stat-box">
+                                <div class="stat-number text-gradient-purple">50+</div>
+                                <div class="stat-label">Happy Clients</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="glass-card stat-box">
+                                <div class="stat-number text-gradient">95%</div>
+                                <div class="stat-label">Success Rate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       SKILLS SECTION
+       ========================================== -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Technical Expertise</h2>
+            </div>
+            <div class="row g-4 mt-3">
+                <!-- Skill 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="glass-card skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <h4>HTML5 & CSS3</h4>
+                        <p class="text-muted small">Creating robust, responsive layout structures with semantic markup,
+                            custom styling via flexbox, grids, variables, and cross-browser compatibility.</p>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>Proficiency</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percent="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="glass-card skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <h4>JavaScript (ES6 Basics)</h4>
+                        <p class="text-muted small">Implementing dynamic user interactions, form validation, event
+                            handling, page transitions, and handling integrations with REST APIs.</p>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>Proficiency</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percent="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="glass-card skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-bootstrap"></i>
+                        </div>
+                        <h4>Bootstrap Framework</h4>
+                        <p class="text-muted small">Rapid prototyping and building pixel-perfect, highly responsive flex
+                            box, and grid structures, layouts, navigation, and visual cards with clean theme variables.
+                        </p>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>Proficiency</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percent="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="glass-card skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+                        <h4>React.js Development</h4>
+                        <p class="text-muted small">
+                            Learning React.js fundamentals, developing basic components, managing state with hooks, and
+                            building responsive user interface elements.
+                        </p>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>Proficiency</span>
+                                <span>45%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percent="45"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="glass-card skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-brands fa-wordpress"></i>
+                        </div>
+                        <h4>WordPress Customization</h4>
+                        <p class="text-muted small">Managing WordPress websites, customizing themes, updating website
+                            content, and resolving frontend issues.</p>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>Proficiency</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percent="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="glass-card skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </div>
+                        <h4>AI Tools & Core UI</h4>
+                        <p class="text-muted small">Leveraging AI tools such as ChatGPT, Claude, and GitHub Copilot for
+                            code generation, debugging, documentation, content creation, SEO optimization, and workflow
+                            automation to accelerate development and deliver high-quality projects on time.
+                        </p>
+                        <div class="skill-bar-wrapper">
+                            <div class="skill-bar-header">
+                                <span>Proficiency</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percent="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       SERVICES SECTION
+       ========================================== -->
+    <!-- <section class="services-section" id="services">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Services Offered</h2>
+            </div>
+            <div class="row g-4 mt-3">
+                <div class="col-md-4">
+                    <div class="glass-card h-100">
+                        <div class="service-icon-box">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h4>Frontend UI Development</h4>
+                        <p class="text-muted mb-0">
+                            Developing production-ready web designs using clean HTML5, CSS3, and custom-styled Bootstrap
+                            grids. Converting design mockups into responsive browser interfaces.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card h-100">
+                        <div class="service-icon-box">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+                        <h4>React.js Integration</h4>
+                        <p class="text-muted mb-0">
+                            Building modular, reusable user interface components using React.js. Implementing
+                            interactive elements like forms, validation, dynamic menus, and custom dashboard cards.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card h-100">
+                        <div class="service-icon-box">
+                            <i class="fa-brands fa-wordpress"></i>
+                        </div>
+                        <h4>WordPress Customization</h4>
+                        <p class="text-muted mb-0">
+                            Managing WordPress websites, customizing themes, updating website content, and resolving
+                            frontend issues.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- ==========================================
+       PORTFOLIO SECTION
+       ========================================== -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Selected Projects</h2>
+            </div>
+
+            <!-- Filters -->
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="landing">Landing Page</button>
+                <button class="filter-btn" data-filter="woocommerce">WooCommerce</button>
+                <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+            </div>
+
+            <!-- Grid -->
+            <div class="row g-4 justify-content-center show-tags" id="portfolioGrid">
+                <!-- Project 1 — Landing Page -->
+                <div class="col-md-6 col-lg-4 portfolio-item landing">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-wrapper">
+                            <img src="assets/images/project1.png" alt="Business Landing Page" class="portfolio-img">
+                            <span class="portfolio-tag">Landing Page</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 — WooCommerce -->
+                <div class="col-md-6 col-lg-4 portfolio-item woocommerce">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-wrapper">
+                            <img src="assets/images/project2.png" alt="WooCommerce Store" class="portfolio-img">
+                            <span class="portfolio-tag woo">WooCommerce</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 — Portfolio -->
+                <div class="col-md-6 col-lg-4 portfolio-item portfolio">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img-wrapper">
+                            <img src="assets/images/project3.png" alt="Personal Portfolio Website"
+                                class="portfolio-img">
+                            <span class="portfolio-tag port">Portfolio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       EXPERIENCE TIMELINE SECTION
+       ========================================== -->
+    <section class="timeline-section" id="experience">
+        <div class="container">
+            <div class="text-center">
+                <span class="badge rounded-pill bg-dark border border-secondary px-3 py-2 mb-3 text-gradient">
+                    <i class="fa-solid fa-route me-2"></i>Career Timeline
+                </span>
+                <h2 class="section-title">My Journey</h2>
+                <p class="text-muted mx-auto" style="max-width: 620px;">
+                    A snapshot of the milestones, roles and skills that shaped me as a Frontend Developer.
+                </p>
+            </div>
+
+            <div class="timeline-container mt-5">
+
+                <!-- ===== Current Role ===== -->
+                <div class="timeline-item timeline-item-left">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-card">
+                        <div class="timeline-date">JUNE 2024 — PRESENT &nbsp;·&nbsp; <span
+                                class="text-gradient-purple">Current</span></div>
+                        <h4 class="mb-1">Frontend Developer</h4>
+                        <h5 class="h6 text-muted mb-3">
+                            <i class="fa-solid fa-building me-1"></i>
+                            Galaxywing IT Solutions — Jaipur, India
+                        </h5>
+                        <p class="small text-muted mb-3">
+                            Working full-time on production websites and web applications. Converting Figma designs into
+                            pixel-perfect, fully responsive interfaces while ensuring clean code, cross-browser
+                            compatibility, and an optimal user experience.
+                        </p>
+                        <ul class="small text-muted ps-3 mb-3" style="line-height: 1.9;">
+                            <li>Delivered <strong>60+ responsive websites</strong> using Bootstrap 5.3 and modern
+                                frontend technologies.</li>
+                            <li>Enhanced website speed and user experience through lazy-loading, image optimization, and
+                                performance best practices.</li>
+                            <li>Implemented SEO best practices and semantic HTML5 to improve search engine visibility
+                                and accessibility.</li>
+                            <li>Converted Figma designs into pixel-perfect, fully responsive interfaces with
+                                cross-browser compatibility.</li>
+                        </ul>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge rounded-pill bg-dark border border-secondary">HTML5</span>
+                            <span class="badge rounded-pill bg-dark border border-secondary">CSS3</span>
+                            <span class="badge rounded-pill bg-dark border border-secondary">Bootstrap 5.3</span>
+                            <span class="badge rounded-pill bg-dark border border-secondary">JavaScript</span>
+                            <span class="badge rounded-pill bg-dark border border-secondary">Figma → Code</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== Skill Growth Phase ===== -->
+                <div class="timeline-item timeline-item-right">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-card">
+                        <div class="timeline-date">2023 — 2024</div>
+                        <h4 class="mb-1">Advanced Frontend Skill-Up</h4>
+                        <h5 class="h6 text-muted mb-3">
+                            <i class="fa-solid fa-laptop-code me-1"></i>
+                            Self-Driven Learning &amp; Practice Projects
+                        </h5>
+                        <p class="small text-muted mb-3">
+                            Spent a focused year mastering modern responsive design patterns, JavaScript
+                            DOM manipulation, animation libraries and a clean Git-based workflow —
+                            building real-world clone projects to bridge tutorial to production quality.
+                        </p>
+                        <ul class="small text-muted ps-3 mb-3" style="line-height: 1.9;">
+                            <li>Built <strong>10+ practice projects</strong> — landing pages, dashboards &amp; portfolio
+                                templates.</li>
+                            <li>Mastered <strong>Flexbox, CSS Grid, custom properties</strong> and modern layout
+                                systems.</li>
+                            <li>Explored <strong>GSAP, AOS &amp; Swiper</strong> for premium scroll &amp; UI animations.
+                            </li>
+                            <li>Adopted <strong>Git, GitHub &amp; VS Code</strong> as daily developer toolkit.</li>
+                        </ul>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge rounded-pill bg-dark border border-secondary">ES6+</span>
+                            <span class="badge rounded-pill bg-dark border border-secondary">SCSS</span>
+                            <span class="badge rounded-pill bg-dark border border-secondary">GSAP</span>
+                            <span class="badge rounded-pill bg-dark border border-secondary">Git / GitHub</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== Foundation ===== -->
+                <div class="timeline-item timeline-item-left">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-card">
+                        <div class="timeline-date">2022 — 2023</div>
+                        <h4 class="mb-1">Started My Web Development Journey</h4>
+                        <h5 class="h6 text-muted mb-3">
+                            <i class="fa-solid fa-seedling me-1"></i>
+                            Foundation in HTML, CSS &amp; JavaScript
+                        </h5>
+                        <p class="small text-muted mb-3">
+                            Discovered my passion for building interfaces. Learned the fundamentals
+                            from the ground up — semantic HTML, CSS box-model, responsive design
+                            principles and the core JavaScript language.
+                        </p>
+                        <ul class="small text-muted ps-3 mb-0" style="line-height: 1.9;">
+                            <li>Completed structured learning of <strong>HTML5 &amp; CSS3</strong> fundamentals.</li>
+                            <li>Built first responsive layouts using <strong>Bootstrap 4 &amp; 5</strong>.</li>
+                            <li>Picked up <strong>JavaScript basics</strong>, DOM events &amp; form validation.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+       CONTACT SECTION
+       ========================================== -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="row g-5 mt-3">
+                <!-- Contact Details -->
+                <div class="col-lg-5">
+                    <div class="glass-card h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <h3 class="h2 mb-4 text-gradient">Let's build something exceptional together</h3>
+                            <p class="text-muted mb-5">
+                                Whether you have an upcoming project, are looking to hire a web design expert, or simply
+                                want to chat about aesthetic layouts—feel free to drop a line.
+                            </p>
+
+                            <ul class="contact-info-list mb-5">
+                                <li class="contact-info-item">
+                                    <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                    <div>
+                                        <div class="small text-muted">Mail Me</div>
+                                        <a href="mailto:birbalkumawat156@gmail.com"
+                                            class="text-white">birbalkumawat156@gmail.com</a>
+                                    </div>
+                                </li>
+                                <li class="contact-info-item">
+                                    <div class="contact-info-icon"><i class="fa-solid fa-phone"></i></div>
+                                    <div>
+                                        <div class="small text-muted">Call Me</div>
+                                        <a href="tel:+919672773017" class="text-white">+91 9672773017</a>
+                                    </div>
+                                </li>
+                                <li class="contact-info-item">
+                                    <div class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                    <div>
+                                        <div class="small text-muted">Location</div>
+                                        <span class="text-white">Jaipur, Rajasthan, India</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <div class="small text-muted mb-3">Connect With Me</div>
+                            <div class="social-links">
+                                <a href="#" class="social-icon-btn text-white" aria-label="LinkedIn Profile"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#" class="social-icon-btn text-white" aria-label="Dribbble Profile"><i
+                                        class="fa-brands fa-dribbble"></i></a>
+                                <a href="#" class="social-icon-btn text-white" aria-label="GitHub Profile"><i
+                                        class="fa-brands fa-github"></i></a>
+                                <a href="#" class="social-icon-btn text-white" aria-label="Twitter Profile"><i
+                                        class="fa-brands fa-x-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-7">
+                    <div class="glass-card">
+                        <h3 class="h3 mb-4 text-white">Send A Message</h3>
+                        <div id="formStatus"></div>
+                        <form id="contactForm" action="https://formsubmit.co/birbal@galaxywing.com" method="POST">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label text-muted small">Your Name</label>
+                                    <input type="text" name="name" class="form-control form-control-glass" id="name"
+                                        placeholder="John Doe" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label text-muted small">Your Email</label>
+                                    <input type="email" name="email" class="form-control form-control-glass" id="email"
+                                        placeholder="john@example.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label text-muted small">Subject</label>
+                                    <input type="text" name="subject" class="form-control form-control-glass"
+                                        id="subject" placeholder="Project Inquiry" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label text-muted small">Message</label>
+                                    <textarea class="form-control form-control-glass" name="message" id="message"
+                                        rows="5" placeholder="Tell me about your project..." required></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn-premium w-100">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+       FOOTER
+       ========================================== -->
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-2">© 2026 <a href="mailto:birbalkumawat156@gmail.com">Birbal Kumawat</a>. All rights reserved.
+            </p>
+            <p class="small text-muted mb-0">Designed & Coded with <i class="fa-solid fa-heart text-danger"></i> using
+                Bootstrap 5.3 & Custom External CSS</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="back-to-top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- ==========================================
+       SCRIPTS
+       ========================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Bootstrap 5.3 JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom External JS -->
+    <script src="js/script.js"></script>
+
+    <script>
+        emailjs.init({
+            publicKey: "YOUR_PUBLIC_KEY"
+        });
+    </script>
+</body>
+
+</html>
